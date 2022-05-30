@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F7C8A1F3-4741-E30D-834F-0DA50D6ACA58}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameLift_UE4",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+    {
+      "Name": "PureWeb",
+      "Enabled": false
+    },
+    {
+        "Name": "GameLiftServerSDK",
+        "Enabled": true
+    }
+	]
+}
